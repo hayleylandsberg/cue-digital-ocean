@@ -1,0 +1,54 @@
+.medicine {
+    border: 1px solid #979797;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+/* .medication {
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.dosage {
+    display: flex;
+    justify-content: space-around;
+}
+
+#medicine-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flexForm-Medication {
+    margin: 70px;
+}
+
+#listOfMedications {
+    overflow: auto; 
+    max-width: 435px; 
+    height: 330px;
+}
+
+.heading-meds {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.archive {
+    height: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.underline {
+    color: #FF1503;
+}

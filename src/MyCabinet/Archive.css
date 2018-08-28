@@ -1,0 +1,62 @@
+.archive-list {
+    margin-top: 30px;
+}
+
+#archive-heading-mc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading-archive {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#archive-list {
+    overflow: auto; 
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.archive-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.archive-dosage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.archive-meds-list{
+    border: 1px solid #979797;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+
+.list-of-archived {
+    overflow: auto; 
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.archive-meds {
+    margin-left: 10px;
+    margin-right: 10px;
+}

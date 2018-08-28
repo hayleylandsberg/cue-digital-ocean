@@ -1,0 +1,384 @@
+{
+  "users": [
+    {
+      "email": "hayleyheath@gmail.com",
+      "password": "me",
+      "firstName": "Hayley",
+      "lastName": "Landsberg",
+      "address": "1937 Kimbark Drive",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "birthDate": "1990-01-25",
+      "gender": "female",
+      "conditions": "test-condition",
+      "allergies": "Penicillin",
+      "pharmacyName": "CVS - Green Hills",
+      "pharmacyNumber": "615-474-6473",
+      "emergencyName": "Anthony Landsberg",
+      "emergencyNumber": "310-339-4554",
+      "score": 80,
+      "id": 1
+    },
+    {
+      "email": "anthonyjlandsberg@gmail.com",
+      "password": "me",
+      "firstName": "Anthony",
+      "lastName": "Landsberg",
+      "address": "1937 Kimbark Drive",
+      "city": "Nashville",
+      "state": "TN",
+      "birthDate": "1988-04-17",
+      "gender": "male",
+      "conditions": "High Blood Pressue",
+      "allergies": "Bees",
+      "pharmacyName": "CVS",
+      "pharmacyNumber": "615-474-6473",
+      "emergencyName": "Hayley Landsberg",
+      "emergencyNumber": "310-882-3105",
+      "score": 40,
+      "id": 2
+    },
+    {
+      "email": "katherine@gmail.com",
+      "password": "me",
+      "firstName": "Katherine",
+      "lastName": "Jones",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "phone": "615-555-2342",
+      "birthDate": "1986-05-03",
+      "gender": "female",
+      "conditions": "Rheumatoid Arthritis",
+      "allergies": "Penicillin",
+      "pharmacyName": "Walgreens - Green Hills",
+      "pharmacyNumber": "615-555-9090",
+      "emergencyName": "Luke Jones",
+      "emergencyNumber": "615-555-3432",
+      "score": 46,
+      "id": 3
+    }
+  ],
+  "appointments": [
+    {
+      "userId": 3,
+      "appointmentTime": "13:20",
+      "appointmentDate": "2018-07-20",
+      "doctorId": 8,
+      "doctorName": "Dr. Erin Scholl",
+      "doctorSpecialty": "Rheumatology",
+      "doctorFacility": "Vanderbilt Medical Center",
+      "doctorAddress": "100 Medical Plaza Nashville, TN 37212",
+      "doctorPhone": "615-332-5473",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "appointmentTime": "15:00",
+      "appointmentDate": "2018-07-31",
+      "doctorId": 9,
+      "doctorName": "Dr. Frank Berry",
+      "doctorSpecialty": "Internal Medicine",
+      "doctorFacility": "Vanderbilt Medical Center",
+      "doctorAddress": "100 Medical Plaza Nashville, TN 37212",
+      "doctorPhone": "615-332-9282",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "appointmentTime": "14:30",
+      "appointmentDate": "2018-10-02",
+      "doctorId": 8,
+      "doctorName": "Dr. Erin Scholl",
+      "doctorSpecialty": "Rheumatology",
+      "doctorFacility": "Vanderbilt Medical Center",
+      "doctorAddress": "100 Medical Plaza Nashville, TN 37212",
+      "doctorPhone": "615-332-5473",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "message": "This morning I have felt light headed and have had a lot of right ear pain.",
+      "userId": 1,
+      "date": "06/11/2018, 11:05:17 AM",
+      "id": 1
+    },
+    {
+      "message": "Today was a good day for me. I felt energized and no pain.",
+      "userId": "2",
+      "date": "06/11/2018, 1:16:17 PM",
+      "id": 2
+    },
+    {
+      "message": "This afternoon I'm having left hand pain.",
+      "userId": "1",
+      "date": "06/11/2018, 2:20:24 PM",
+      "id": 3
+    },
+    {
+      "message": "Today I am feeling a bit anxious, but I'm not sure why. I've had a bagel for breakfast and no coffee.",
+      "userId": 2,
+      "date": "06/12/2018, 11:23:32 AM",
+      "id": 4
+    },
+    {
+      "message": "Today my left wrist is hurting. I have taken two Advil and there's still no relief.",
+      "userId": "1",
+      "date": "06/13/2018, 2:25:18 PM",
+      "id": 5
+    },
+    {
+      "message": "I am very fatigued today. ",
+      "userId": "1",
+      "date": "06/14/2018, 10:43:05 AM",
+      "id": 6
+    },
+    {
+      "message": "My neck and back are hurting today.",
+      "userId": "1",
+      "date": "06/18/2018, 3:17:12 PM",
+      "id": 7
+    },
+    {
+      "message": "Today my right index finger and wrist were hurting. On a 1 to 10 scale, I'd put my pain at a 6.",
+      "userId": 3,
+      "date": "06/19/2018, 1:54:01 PM",
+      "id": 8
+    },
+    {
+      "message": "My knees are extremely swollen today. I took 2 Advil at 8AM this morning.",
+      "userId": "3",
+      "date": "06/20/2018, 3:34:28 PM",
+      "id": 9
+    },
+    {
+      "message": "Realized I forgot to take my Plaquenil yesterday. Have doubled up today.",
+      "userId": 3,
+      "date": "06/20/2018, 8:19:05 PM",
+      "id": 10
+    },
+    {
+      "message": "Today I had a bad headache all day and numbness in my right hand.",
+      "userId": "3",
+      "date": "06/28/2018, 11:50:04 PM",
+      "id": 11
+    },
+    {
+      "message": "Took Vitamin B12 yesterday and I'm feeling better. Think I might try and add this to my medicine cabinet.",
+      "userId": "3",
+      "date": "06/29/2018, 1:24:35 PM",
+      "id": 12
+    },
+    {
+      "message": "Today I am ready to go home. ",
+      "userId": "3",
+      "date": "07/02/2018, 10:01:40 AM",
+      "id": 13
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Dr. Daniel Schuster",
+      "facility": "Vanderbilt Medical Center",
+      "specialty": "ENT",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-938-4372"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Dr. Ed Gould",
+      "facility": "Vanderbilt Medical Center",
+      "specialty": "Nephrology",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-337-4226"
+    },
+    {
+      "name": "Dr. Susan Baker",
+      "specialty": "Rheumatology",
+      "facility": "Cedar Sinai Medical Center",
+      "address": "300 N Beverly Drive Beverly Hills, CA 90211",
+      "phoneNumber": "310-842-3928",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "Dr. Sousan Karimi",
+      "specialty": "Nephrology",
+      "facility": "Cedar Sinai Medical Center",
+      "address": "922 W. 3rd Street Los Angles, CA 90048",
+      "phoneNumber": "310-928-3748",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Dr. Julian Martinez",
+      "specialty": "Genetics",
+      "facility": "UCLA Medical Center",
+      "address": "757 Westwood Plaza Los Angeles, CA 90095",
+      "phoneNumber": "310-938-2438",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Dr. Charles Clark",
+      "specialty": "Internal Medicine",
+      "facility": "Vanderbilt Medical Center",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-332-5473",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "Dr. Charles Clark",
+      "specialty": "Internal Medicine",
+      "facility": "Vanderbilt Medical Center",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-332-5473",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "name": "Dr. Erin Scholl",
+      "specialty": "Rheumatology",
+      "facility": "Vanderbilt Medical Center",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-332-5473",
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "Dr. Frank Berry",
+      "specialty": "Internal Medicine",
+      "facility": "Vanderbilt Medical Center",
+      "address": "100 Medical Plaza Nashville, TN 37212",
+      "phoneNumber": "615-332-9282",
+      "userId": 3,
+      "id": 9
+    }
+  ],
+  "medications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Prednisone",
+      "dosage": "100mg",
+      "frequency": "2x Daily",
+      "rxNumber": "3827394",
+      "archive": true,
+      "takenMeds": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Vitamin B12",
+      "dosage": "500mg",
+      "frequency": "1x Daily",
+      "rxNumber": "32073432",
+      "archive": false,
+      "takenMeds": false
+    },
+    {
+      "name": "Vitamin D3",
+      "dosage": "2000iu",
+      "frequency": "1x Daily",
+      "rxNumber": "8473292",
+      "userId": 1,
+      "archive": false,
+      "id": 3,
+      "takenMeds": false
+    },
+    {
+      "name": "Hydroxichloroquine",
+      "dosage": "200mg",
+      "frequency": "2x Daily",
+      "rxNumber": "843962",
+      "userId": 1,
+      "archive": false,
+      "id": 4,
+      "takenMeds": false
+    },
+    {
+      "name": "Methotrexate",
+      "dosage": "20mg",
+      "frequency": "1x Weekly",
+      "rxNumber": "9274099",
+      "userId": 1,
+      "archive": false,
+      "id": 5,
+      "takenMeds": false
+    },
+    {
+      "name": "Vitamin A",
+      "dosage": "300iu",
+      "frequency": "1x Daily",
+      "rxNumber": "849356495",
+      "userId": 1,
+      "archive": false,
+      "id": 6,
+      "takenMeds": false
+    },
+    {
+      "name": "Daily Vitamin",
+      "dosage": "200mg",
+      "frequency": "1x Daily",
+      "rxNumber": "832932",
+      "userId": 2,
+      "archive": false,
+      "id": 7,
+      "takenMeds": false
+    },
+    {
+      "name": "Allegra",
+      "dosage": "10mg",
+      "frequency": "1x Daily",
+      "rxNumber": "4735834",
+      "userId": 1,
+      "archive": false,
+      "id": 8,
+      "takenMeds": false
+    },
+    {
+      "name": "Methotrexate",
+      "dosage": "15mg",
+      "frequency": "1x Daily",
+      "rxNumber": "8362234",
+      "userId": 3,
+      "archive": false,
+      "takenMeds": false,
+      "id": 10
+    },
+    {
+      "name": "Plaquenil",
+      "dosage": "200mg",
+      "frequency": "2x Daily",
+      "rxNumber": "9384726",
+      "userId": 3,
+      "archive": false,
+      "takenMeds": false,
+      "id": 11
+    },
+    {
+      "name": "Vitamin D3",
+      "dosage": "2000iu",
+      "frequency": "1x Daily",
+      "rxNumber": "432423",
+      "userId": 3,
+      "archive": false,
+      "takenMeds": false,
+      "id": 12
+    },
+    {
+      "name": "Vitamin B12",
+      "dosage": "2000iu",
+      "frequency": "1x Daily",
+      "rxNumber": "235324",
+      "userId": 3,
+      "archive": true,
+      "takenMeds": false,
+      "id": 14
+    }
+  ]
+}

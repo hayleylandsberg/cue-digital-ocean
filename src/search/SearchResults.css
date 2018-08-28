@@ -1,0 +1,34 @@
+.searchResults {
+    margin: 125px auto;
+    max-width: 500px;
+}
+
+.avatar {
+    height: 80px;
+    width: 80px;
+    margin: 20px 0 0 20px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-med-descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: red;
+}
+
+.card-information-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search-heading {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

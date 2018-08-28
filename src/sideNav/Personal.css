@@ -1,0 +1,40 @@
+#sideNav {
+    background-color: #71797A;
+    min-height: 100%;
+    text-align: center;
+    /* width: 80%; */
+    color: white;
+    font-family: avenir;
+    border-radius: 1%;
+}
+
+.sideNav-test {
+    height: 100%;
+    width: 290px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #71797A;
+    overflow-x: hidden;
+    padding-top: 60px;
+    box-shadow: 2px 5px 5px #979797;
+}
+
+.avatarLarge {
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#activeUserName {
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}

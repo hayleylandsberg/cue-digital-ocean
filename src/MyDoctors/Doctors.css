@@ -1,0 +1,76 @@
+.doctor {
+    border: 1px solid #979797;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* .medication {
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.doctors-md {
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.doctor-md {
+    border: 1px solid #979797;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 1%;
+    background-color: white;
+}
+
+#listOfDoctors-md {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doctor-heading-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .flexForm-Doctor {
+    margin: 70px;
+} */
+
+.appointment-heading-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.doctor-calendar-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contact-calendar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-icon {
+    margin-top: 20px;
+}
